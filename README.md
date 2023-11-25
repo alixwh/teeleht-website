@@ -5,7 +5,7 @@
 Website prototype focusing on UI/UX design, accessibility and responsiveness across desktop and mobile devices.
 
 ### Local development
-Install needed dependencies:
+Install the needed dependencies:
 ```
 npm install
 ```
