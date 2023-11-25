@@ -1,0 +1,110 @@
+.navbar-custom {
+  .nav-link {
+    color: black;
+  }
+
+  .nav-item:hover {
+    text-decoration: underline;
+    text-underline-offset: 8px;
+  }
+}
+
+.breadcrumb {
+  .breadcrumb-item {
+    color: black;
+  }
+  border: 1px solid #000000;
+  border-width: 1px 0 1px 0;
+  border-radius: 0;
+  background-color: white;
+  margin: 0 41px 0 41px;
+}
+
+.your-cart {
+  padding: 60px 0 0 100px;
+  font-family: "Lato";
+  font-size: 36px;
+  line-height: 43px;
+}
+.line {
+  width: 90%;
+  margin-bottom: 30px;
+}
+.item {
+  margin: 50px;
+  min-width: fit-content;
+  border: 1px solid #000000;
+}
+
+.image {
+  min-width: 122px;
+  max-width: 122px;
+  min-height: 112px;
+  max-height: 112px;
+  margin: 30px;
+}
+.name {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  margin-top: 30px;
+  text-align: left;
+  .amount {
+    text-align: left;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  .plus-minus {
+    display: flex;
+    margin-top: 10px;
+    .cart-button {
+      border: none;
+      background-color: white;
+      font-size: 15px;
+    }
+    .value {
+      min-width: 32px;
+      font-size: 12px;
+      background-color: #f4f4f4;
+      text-align: center;
+    }
+  }
+}
+
+.price {
+  justify-content: center;
+  display: grid;
+  margin-top: 30px;
+  font-size: 24px;
+}
+
+.can {
+  margin-top: 30px;
+}
+
+.price-details {
+  font-size: 32px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.price-line {
+  width: 80%;
+}
+.total {
+  font-size: 24px;
+}
+
+.btn-outline-custom {
+  border-color: #000000;
+  color: #000000;
+  font-size: 24px;
+  min-width: 226px;
+  max-width: 226px;
+  margin-top: 40px;
+}
+
+.btn-outline-custom:hover {
+  background-color: rgb(100, 100, 100);
+  color: #fff;
+}

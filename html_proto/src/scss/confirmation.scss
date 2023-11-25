@@ -1,0 +1,54 @@
+.navbar-custom {
+  .nav-link {
+    color: black;
+  }
+
+  .nav-item:hover {
+    text-decoration: underline;
+    text-underline-offset: 8px;
+  }
+}
+
+body {
+  background: url("./../assets/confirmation-bg-4.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.row {
+  justify-content: center;
+  align-items: center;
+  font-size: calc(22px + 0.390625vw);
+}
+
+.confirmed-row {
+  margin-top: 15vh;
+
+  .verified-icon {
+    width: calc(24px + 0.390625vw);
+    margin-left: 1.5vw;
+  }
+}
+
+.gratitude-row {
+  margin-top: 10vh;
+  text-align: center;
+}
+
+.button-row {
+  margin-top: 23vh;
+
+  .btn-gray-custom {
+    border-color: #000000;
+    color: #fff;
+    background-color: rgb(100, 100, 100);
+    font-size: calc(13px + 0.390625vw);
+    min-width: 18vw;
+  }
+
+  .btn-gray-custom:hover {
+    background-color: rgb(77, 77, 77);
+    color: #fff;
+  }
+}

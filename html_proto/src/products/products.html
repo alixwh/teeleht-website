@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Teeleht</title>
+    <link rel="icon" type="image/x-icon" href="./../assets/favicon.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top navbar-custom bg-light pt-0 align-items-end">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand ml-4" href="./../">
+            <img src="./../assets/teelehtlogo-no-bg.png" width="125" alt="">
+        </a>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item mx-5">
+                    <a class="nav-link" href="./../products/products.html">TEAS</a>
+                </li>
+                <li class="nav-item mx-5">
+                    <a class="nav-link" href="">TEAWARE</a>
+                </li>
+                <li class="nav-item mx-5">
+                    <a class="nav-link" href="">GIFTS</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <span class="navbar-text">
+                <a class="nav-link" href="#">
+                    <img src="./../assets/magnifying-glass.png" width="20" class="d-inline-block align-bottom" alt="">
+                </a>
+            </span>
+            <span class="navbar-text mx-4">
+                <a class="nav-link" href="./../cart/cart.html">
+                    <img src='./../assets/cart.png' width="25" class="d-inline-block align-bottom" alt="">
+                </a>
+            </span>
+        </div>
+    </nav>
+
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a class="breadcrumb-item" href="./../">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">All Teas</li>
+        </ol>
+    </nav>
+
+    <div class="text-center">
+        <div class="layout-grid">
+            <!-- filtering box -->
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                    <button class="btn" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                        aria-controls="panelsStayOpen-collapseOne">
+                        Caffeine content
+                        <img class="image" src='./../assets/arrow.png' alt="">
+                    </button>
+                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                        <div class="accordion-body">
+                            <div class="form-check check-filter">
+                                <input class="form-check-input" type="checkbox" value="" id="caffeine-high">
+                                <label class="form-check-label" for="caffeine-high">
+                                    High
+                                </label>
+                            </div>
+                            <div class="form-check check-filter">
+                                <input class="form-check-input" type="checkbox" value="" id="caffeine-med">
+                                <label class="form-check-label" for="caffeine-med">
+                                    Medium
+                                </label>
+                            </div>
+                            <div class="form-check check-filter">
+                                <input class="form-check-input" type="checkbox" value="" id="caffeine-low">
+                                <label class="form-check-label" for="caffeine-low">
+                                    Low
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="btn filter-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseTwo">
+                        Flavour
+                        <img class="image" src='./../assets/arrow.png' alt="">
+
+                    </button>
+                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <div class="form-check check-filter">
+                                <input class="form-check-input" type="checkbox" value="" id="green-tea">
+                                <label class="form-check-label" for="green-tea">
+                                    Green tea
+                                </label>
+                            </div>
+                            <div class="form-check check-filter">
+                                <input class="form-check-input" type="checkbox" value="" id="black-tea">
+                                <label class="form-check-label" for="black-tea">
+                                    Black tea
+                                </label>
+                            </div>
+                            <div class="form-check check-filter">
+                                <input class="form-check-input" type="checkbox" value="" id="oolong-tea">
+                                <label class="form-check-label" for="oolong-tea">
+                                    Oolong tea
+                                </label>
+                            </div>
+                            <div class="form-check check-filter">
+                                <input class="form-check-input" type="checkbox" value="" id="mint-tea">
+                                <label class="form-check-label" for="mint-tea">
+                                    Mint tea
+                                </label>
+                            </div>
+                            <div class="form-check check-filter">
+                                <input class="form-check-input" type="checkbox" value="" id="ginger-tea">
+                                <label class="form-check-label" for="ginger-tea">
+                                    Ginger tea
+                                </label>
+                            </div>
+                            <div class="form-check check-filter">
+                                <input class="form-check-input" type="checkbox" value="" id="matcha-tea">
+                                <label class="form-check-label" for="matcha-tea">
+                                    Matcha tea
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="accordion-item">
+                    <button class="btn collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseThree">
+                        Origin
+                        <img class="image" src='./../assets/arrow.png' alt="">
+                    </button>
+                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <div class="form-check check-filter">
+                                <input class="form-check-input" type="checkbox" value="min" id="china">
+                                <label class="form-check-label" for="china">
+                                    China
+                                </label>
+                            </div>
+                            <div class="form-check check-filter">
+                                <input class="form-check-input" type="checkbox" value="max" id="india">
+                                <label class="form-check-label" for="india">
+                                    India
+                                </label>
+                            </div>
+                            <div class="form-check check-filter">
+                                <input class="form-check-input" type="checkbox" value="max" id="sri-lanka">
+                                <label class="form-check-label" for="sri-lanka">
+                                    Sri Lanka
+                                </label>
+                            </div>
+                            <div class="form-check check-filter">
+                                <input class="form-check-input" type="checkbox" value="max" id="taiwan">
+                                <label class="form-check-label" for="taiwan">
+                                    Taiwan
+                                </label>
+                            </div>
+                            <div class="form-check check-filter">
+                                <input class="form-check-input" type="checkbox" value="max" id="kenya">
+                                <label class="form-check-label" for="kenya">
+                                    Kenya
+                                </label>
+                            </div>
+                            <div class="form-check check-filter">
+                                <input class="form-check-input" type="checkbox" value="max" id="turkey">
+                                <label class="form-check-label" for="turkey">
+                                    Turkey
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <!-- products -->
+            <div class="row" id="products-container">
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script type="module" src="products.js"></script>
+</body>
+
+</html>

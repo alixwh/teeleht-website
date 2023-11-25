@@ -1,0 +1,72 @@
+.navbar-custom {
+  .nav-link {
+    color: black;
+  }
+
+  .nav-item:hover {
+    text-decoration: underline;
+    text-underline-offset: 8px;
+  }
+}
+
+.breadcrumb {
+  .breadcrumb-item {
+    color: black;
+  }
+  border: 1px solid #000000;
+  border-width: 1px 0 1px 0;
+  border-radius: 0;
+  background-color: white;
+  margin: 0 41px 0 41px;
+}
+
+.layout-grid {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 60px;
+  padding: 40px;
+  padding-right: 80px;
+}
+
+.btn {
+  background: none;
+  border: 1px solid #000000;
+  border-width: 0 0 1px;
+  border-radius: 0;
+  min-width: 200px;
+  max-width: 200px;
+  text-align: left;
+  display: inline-block;
+  position: relative;
+
+  .image {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+  }
+}
+
+.product {
+  background-color: #eeeeec;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 30px;
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  font-size: 16px;
+}
+
+.check-filter {
+  text-align: left;
+  left: 10px;
+}
+button[aria-expanded="true"] > img {
+  transform: rotate(180deg);
+}

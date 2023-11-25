@@ -1,0 +1,151 @@
+.navbar-custom {
+  .nav-link {
+    color: black;
+  }
+
+  .nav-item:hover {
+    text-decoration: underline;
+    text-underline-offset: 8px;
+  }
+}
+
+.container-fluid {
+  font-size: 2.5vw;
+  height: 70vw;
+
+  .col {
+    flex-direction: column;
+  }
+  
+  .info-container-row {
+    background-color: #9B8C79;
+    height: 42.55%;
+
+    .info-container-text{
+      color: #fff;
+      margin-left: 10vw;
+      margin-right: 10vw;
+      text-align: center;
+      margin-bottom: 4vw;
+    }
+  }
+  
+  .ad-container-row {
+    height: 57.45%;
+
+    .ad-container-text {
+      margin-bottom: 3vw;
+    }
+  }
+
+}
+
+.btn-brown-custom {
+  background-color: #8E7F6B;
+  border-color: #817361;
+  color: #fff;
+  font-size: 1.4vw;
+  min-width: 15vw;
+  max-width: 15vw;
+}
+
+.btn-brown-custom:hover {
+  background-color: #72675a;
+  color: #fff;
+}
+
+.btn-outline-custom {
+  border-color: #000000;
+  color: #000000;
+  font-size: 1.4vw;
+  min-width: 15vw;
+  max-width: 15vw;
+}
+
+.btn-outline-custom:hover {
+  background-color: rgb(100, 100, 100);
+  color: #fff;
+}
+
+.tea-nature-img {
+  width: auto;
+  height: 70vw;
+  position:absolute;
+  top: 65px;
+  right: 0;
+}
+
+button {
+  background: none;
+  border: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+button[aria-expanded="true"] > img {
+  transform: rotate(180deg);
+}
+
+.sidebar-nav-link {
+  width: 140px;
+}
+
+#sidebar-wrapper {
+  margin-left: -250px;
+  left: 0;
+  width: 250px;
+  position: fixed;
+  height: 100%;
+  z-index: 1000;
+  transition: all 0.5s ease-in-out;
+
+  .search-bar {
+    width: 80%;
+    background-color: #fff;
+    display: flex;
+    border-radius: 50px;
+    border-width: 0.5px;
+    padding: 8px 20px;
+    margin: 15px auto;
+  }
+  
+  .search-bar input {
+    height: 100%;
+    border: 0;
+    outline: none;
+    font-size: 15px;
+    width: 90%;
+  }
+
+  .sidebar-nav {
+    position: absolute;
+    top: 80px;
+    width: 250px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  
+    li {
+      line-height: 40px;
+      text-indent: 20px;
+    }
+    
+    li a {
+      color: #000000;
+    }
+    
+    li a:hover {
+      text-decoration: underline;
+      text-underline-offset: 8px;
+    }
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .cart-button {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+}

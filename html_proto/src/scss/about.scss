@@ -1,0 +1,62 @@
+.navbar-custom {
+    
+  .nav-link {
+      color: black;
+  }
+
+  .nav-item:hover {
+      text-decoration: underline;
+      text-underline-offset: 8px;
+  }
+  
+}
+
+.container-fluid {
+  height: 70vw;
+
+  .info-container-row {
+    background-color: #9B8C79;
+    padding-top: 3.5%;
+    padding-bottom: 3.5%;
+
+    .info-col {
+
+      .info-container-text{
+        color: #fff;
+        margin-left: 4vw;
+        margin-right: 2vw;
+        text-align: left;
+        font-size: calc(12px + 0.390625vw);
+      }
+    }
+  }
+
+  .col {
+    flex-direction: column;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+
+.contact-title {
+  font-size: calc(20px + 0.390625vw);
+  margin-top: 3vh;
+}
+
+.contact-info {
+  font-size: calc(12px + 0.390625vw);
+}
+
+.map-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.nature-img {
+  width: 100%;
+  height: auto;
+}
