@@ -3,7 +3,7 @@ import { defineConfig } from 'vite'
 
 export default defineConfig({
   root: path.resolve(__dirname, "src"),
-  base: "http://turing.cs.ttu.ee/~brkerg/iti0209/",
+  base: "http://turing.cs.ttu.ee/teeleht/",
   build: {
     outDir: "../dist",
     emptyOutDir: true,
